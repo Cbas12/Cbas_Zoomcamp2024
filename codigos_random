@@ -48,25 +48,14 @@ docker run -it \
  --table_name=yellow_taxi_trips \
  --url="https://github.com/Cbas12/MisArchivos/raw/main/yellow_tripdata_2021-01.csv"
 
-
-#version 2
 docker run -it \
  --network=cbas_zoomcamp2024_default \
  taxi_ingest:v001 \
  --user=admin \
  --password=root \
- --host=pg-database \
+ --host=pgdatabase \
  --port=5432 \
  --db=ny_taxi \
  --table_name=yellow_taxi_trips \
  --url="https://github.com/Cbas12/MisArchivos/raw/main/yellow_tripdata_2021-01.csv"
 
-docker run -it \
- taxi_ingest:v001 \
- --user=admin \
- --password=root \
- --host=pg-database \
- --port=5432 \
- --db=ny_taxi \
- --table_name=yellow_taxi_trips \
- --url="https://github.com/Cbas12/MisArchivos/raw/main/yellow_tripdata_2021-01.csv"
