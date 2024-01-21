@@ -52,5 +52,5 @@ docker run -it \
  --port=5432 \
  --db=ny_taxi \
  --table_name=yellow_taxi_trips \
- --url="https://github.com/Cbas12/Cbas_Zoomcamp2024/raw/main/yellow_tripdata_2021-01.csv"
+ --url="https://github.com/Cbas12/MisArchivos/raw/main/yellow_tripdata_2021-01.csv"
 
